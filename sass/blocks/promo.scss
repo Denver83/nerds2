@@ -1,0 +1,80 @@
+.promo {
+	display: flex;
+	margin-bottom: 70px;
+	padding-bottom: 50px;
+	padding-top: 82px;
+}
+.container--promo{
+	border-bottom: 1px solid #eeeeee;
+	padding-bottom: 80px;
+}
+.promo__blocks{
+	display: flex;
+}
+.btn-red{
+	background-color: #fb565a;
+	width: 163px;
+	height: 52px;
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 18px;
+	padding-top: 18px;
+	color: white;
+	&:hover{
+  	background-color: #e74246;
+  }
+  &:active {
+	  background: #b63538;
+	  color: #e07274;
+ }
+}
+.apps p{
+	font-size: 15px;
+	line-height: 22px;
+}
+.btn-green{
+	background-color: #00ca74;
+	width: 163px;
+	height: 52px;
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 18px;
+	padding-top: 18px;
+	color: white;
+	&:hover {
+  background-color: #01a25e;
+  }
+  &:active{
+  	color:#74c69a;
+  }
+}
+.btn-yellow{
+	background-color: #efc84a;
+	width: 163px;
+	height: 52px;
+	border-radius: 3px;
+	font-size: 16px;
+	line-height: 18px;
+	padding-top: 18px;
+	color: white;
+	&:hover {
+	background-color: #d6ae2c;
+  }
+  &:active{
+	color: #edc47c;
+ }
+}
+.promo__title{
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 30px;
+  padding-top: 27px;
+  padding-bottom: 30px;
+}
+.promo__item{
+	width: 300px;
+	margin-right: 100px;
+}
+.promo__text{
+	padding-bottom: 38px;
+}

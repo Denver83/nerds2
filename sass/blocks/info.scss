@@ -1,0 +1,70 @@
+.info{
+	width: 100%;
+	padding-bottom: 50px;
+}
+.info__block{
+	display: flex;
+	justify-content:space-between;
+}
+.info__slogan{
+	font-size: 45px;
+	line-height:45px;
+	font-weight: 500;
+	padding-bottom: 40px;
+.info__text{
+	padding-left: 40px;
+}
+.info__text--1{
+	padding-right: 130px;
+}
+	padding-right: 130px;
+}
+.info__red-line{
+	display: flex;
+	padding-bottom: 35px;
+}
+.info__text--bold{
+	padding-top: 50px;
+	padding-bottom: 32px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.red-line{
+	width: 26px;
+	margin-bottom: 12px;
+	border-bottom: 1px solid #fb565a;
+	margin-right: 10px;
+
+}
+.logo-bot{
+	margin-top: -40px;
+	margin-bottom: 50px;
+}
+.info__right-part--title{
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-bottom: 50px;
+}
+.info__columns{
+	display: flex;
+
+}
+.info__right-part--col{
+	display: flex;
+	flex-direction: column;
+}
+.info__text--percent{
+	display: flex;
+	height: 50px;
+	font-weight: bold;
+	font-size: 45px;
+	line-height: 10px;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+.info__text--percent span{
+	display: block;
+	margin-top: -10px;
+	font-size: 19px;
+	line-height: 10px;
+}

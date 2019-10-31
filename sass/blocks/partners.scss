@@ -1,0 +1,45 @@
+.partners{
+	margin-bottom: 78px;
+}
+.partners__list{
+	width: 100%;
+	display: flex;
+	padding-top: 45px;
+	padding-bottom: 40px;
+	border-top: 1px solid #eeeeee;
+	border-bottom: 1px solid #eeeeee;
+}
+.partners__link{
+	display: block;
+	text-align: center;
+	flex-basis: 25%;
+	height: 52px;
+	border-right: 1px solid darkgray;
+
+}
+.partners__link--pink{
+	opacity: 0.2;
+}
+.partners__link--accademy{
+	opacity: 0.2;
+}
+.partners__link--barber{
+	opacity: 0.2;
+}
+.partners__link--mishka{
+	opacity: 0.2;
+}
+.partners__link--mishka:hover,
+.partners__link--pink:hover, 
+.partners__link--accademy:hover, 
+.partners__link--barber:hover{
+	opacity: 1;
+	border-color: #eeeeee;
+}
+.partners__link--mishka:active,
+.partners__link--pink:active, 
+.partners__link--accademy:active, 
+.partners__link--barber:active{
+	opacity: 0.1;
+	border-color: #eeeeee;
+}
